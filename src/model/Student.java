@@ -1,10 +1,10 @@
 package model;
 
 public class Student {
-    int ID;
-    String fullName;
-    String address;
-    int phoneNumber;
+    private int ID;
+    private String fullName;
+    private String address;
+    private int phoneNumber;
 
     public Student(int ID, String fullName, String address, int phoneNumber) {
         this.ID = ID;
